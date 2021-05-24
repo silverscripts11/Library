@@ -133,9 +133,9 @@ function library:Window(name)
     HeaderText.Position = UDim2.new(0, 0, -0.0020698905, 0)
     HeaderText.Size = UDim2.new(0, 206, 0, 33)
     HeaderText.ZIndex = 6 + zindex
-    HeaderText.Font = Enum.Font.SourceSans
+    HeaderText.Font = Enum.Font.FredokaOne
     HeaderText.Text = name or "Window"
-    HeaderText.TextColor3 = Color3.fromRGB(47, 54, 64)
+    HeaderText.TextColor3 = Color3.fromRGB(200, 200, 200)
     HeaderText.TextSize = 17.000
 
     local Minimise = Instance.new("TextButton")
@@ -148,13 +148,13 @@ function library:Window(name)
     Minimise.Size = UDim2.new(0, 22, 0, 22)
     Minimise.ZIndex = 7 + zindex
     Minimise.Font = Enum.Font.FredokaOne
-    Minimise.Text = "_"
+    Minimise.Text = "-"
     Minimise.TextColor3 = Color3.fromRGB(255, 255, 255)
     Minimise.TextSize = 20.000
     Minimise.MouseButton1Up:connect(function()
         Window.Visible = not Window.Visible
 	if Window.Visible then
-		Minimise.Text = "_"
+		Minimise.Text = "-"
 	else
 		Minimise.Text = "+"
 	end
