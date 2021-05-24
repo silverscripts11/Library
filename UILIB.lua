@@ -45,7 +45,7 @@
 	                con = RenderStepped:Connect(function()
 	        			if isdragging then
 							local delta = Vector3.new(Mouse.X, Mouse.Y, 0) - minitial;
-							obj:TweenPosition(UDim2.new(initial.X.Scale, initial.X.Offset + delta.X, initial.Y.Scale, initial.Y.Offset + delta.Y), "Quad", "Out", .1, true);
+							obj.Position = UDim2.new(initial.X.Scale, initial.X.Offset + delta.X, initial.Y.Scale, initial.Y.Offset + delta.Y);
 						else
 							con:Disconnect();
 						end;
