@@ -45,7 +45,7 @@
 	                con = RenderStepped:Connect(function()
 	        			if isdragging then
 							local delta = Vector3.new(Mouse.X, Mouse.Y, 0) - minitial;
-							obj.Position = UDim2.new(initial.X.Scale, initial.X.Offset + delta.X, initial.Y.Scale, initial.Y.Offset + delta.Y);
+							obj:TweenPosition(UDim2.new(initial.X.Scale, initial.X.Offset + delta.X, initial.Y.Scale, initial.Y.Offset + delta.Y), "Quad", "Out", .1, true);
 						else
 							con:Disconnect();
 						end;
@@ -135,7 +135,7 @@
 	    HeaderText.ZIndex = 6 + zindex
 	    HeaderText.Font = Enum.Font.FredokaOne
 	    HeaderText.Text = name or "Window"
-	    HeaderText.TextColor3 = Color3.fromRGB(200, 200, 200)
+	    HeaderText.TextColor3 = Color3.fromRGB(255, 255, 255)
 	    HeaderText.TextSize = 17.000
 
 	    local Minimise = Instance.new("TextButton")
