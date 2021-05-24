@@ -106,7 +106,7 @@
 
 	    UiWindow.Name = "UiWindow"
 	    UiWindow.Parent = QuarUI
-	    UiWindow.BackgroundColor3 = Color3.fromRGB(0, 151, 230)
+	    UiWindow.BackgroundColor3 = Color3.fromRGB(230, 103, 0)
 	    UiWindow.BorderColor3 = Color3.fromRGB(0, 151, 230)
 	    UiWindow.Position = UDim2.new(0, xOffset, 0, 20)
 	    UiWindow.Size = UDim2.new(0, 207, 0, 33)
@@ -119,7 +119,7 @@
 	    local Header = Instance.new("Frame")
 	    Header.Name = "Header"
 	    Header.Parent = UiWindow
-	    Header.BackgroundColor3 = Color3.fromRGB(0, 168, 255)
+	    Header.BackgroundColor3 = Color3.fromRGB(255, 93, 0)
 	    Header.BorderColor3 = Color3.fromRGB(0, 168, 255)
 	    Header.Position = UDim2.new(0, 0, -0.0202544238, 0)
 	    Header.Size = UDim2.new(0, 207, 0, 26)
