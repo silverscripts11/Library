@@ -120,7 +120,7 @@
 	    Header.Name = "Header"
 	    Header.Parent = UiWindow
 	    Header.BackgroundColor3 = Color3.fromRGB(255, 93, 0)
-	    Header.BorderColor3 = Color3.fromRGB(0, 168, 255)
+	    Header.BorderColor3 = Color3.fromRGB(255, 93, 0)
 	    Header.Position = UDim2.new(0, 0, -0.0202544238, 0)
 	    Header.Size = UDim2.new(0, 207, 0, 26)
 	    Header.ZIndex = 5 + zindex
@@ -142,8 +142,8 @@
 	    local Window = Instance.new("Frame")
 	    Minimise.Name = "Minimise"
 	    Minimise.Parent = Header
-	    Minimise.BackgroundColor3 = Color3.fromRGB(0, 168, 255)
-	    Minimise.BorderColor3 = Color3.fromRGB(0, 168, 255)
+	    Minimise.BackgroundColor3 = Color3.fromRGB(255, 93, 0)
+	    Minimise.BorderColor3 = Color3.fromRGB(255, 93, 0)
 	    Minimise.Position = UDim2.new(0, 185, 0, 2)
 	    Minimise.Size = UDim2.new(0, 22, 0, 22)
 	    Minimise.ZIndex = 7 + zindex
