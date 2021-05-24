@@ -147,9 +147,9 @@ function library:Window(name)
     Minimise.Position = UDim2.new(0, 185, 0, 2)
     Minimise.Size = UDim2.new(0, 22, 0, 22)
     Minimise.ZIndex = 7 + zindex
-    Minimise.Font = Enum.Font.SourceSansLight
+    Minimise.Font = Enum.Font.FredokaOne
     Minimise.Text = "_"
-    Minimise.TextColor3 = Color3.fromRGB(0, 0, 0)
+    Minimise.TextColor3 = Color3.fromRGB(255, 255, 255)
     Minimise.TextSize = 20.000
     Minimise.MouseButton1Up:connect(function()
         Window.Visible = not Window.Visible
