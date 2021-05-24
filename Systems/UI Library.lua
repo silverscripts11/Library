@@ -107,7 +107,7 @@
 	    UiWindow.Name = "UiWindow"
 	    UiWindow.Parent = QuarUI
 	    UiWindow.BackgroundColor3 = Color3.fromRGB(230, 103, 0)
-	    UiWindow.BorderColor3 = Color3.fromRGB(0, 151, 230)
+	    UiWindow.BorderColor3 = Color3.fromRGB(230, 103, 0)
 	    UiWindow.Position = UDim2.new(0, xOffset, 0, 20)
 	    UiWindow.Size = UDim2.new(0, 207, 0, 33)
 	    UiWindow.ZIndex = 4 + zindex
